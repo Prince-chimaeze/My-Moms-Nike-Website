@@ -127,23 +127,23 @@
         <div class="payment">
             <h1 class="payTitle">Personal Information</h1>
             <label for="">Name and Surname</label>
-            <input type="text" placeholder="Adieze Chinonso" class="payInput">
+            <input type="text" placeholder="Adieze Chinonso" class="payInput" required>
             <label for="">Phone Number</label>
-            <input type="text" placeholder="+234 907 588 8267" class="payInput">
+            <input type="text" placeholder="+234 907 588 8267" class="payInput" required>
             <label for="">Address</label>
-            <input type="text" placeholder="No:.....?" class="payInput">
+            <input type="text" placeholder="No:.....?" class="payInput" required>
             <h1 class="payTitle">Card Information</h1>
             <div class="cardIcons">
                 <img src="Images/visa1.PNG" width="40" alt="" class="cardIcon">
                 <img src="Images/visa.PNG" width="40" alt="" class="cardIcon">
             </div>
-            <input type="password" class="payInput" placeholder="Card Number">
+            <input type="password" class="payInput" placeholder="Card Number" required>
             <div class="cardInfo">
-                <input type="text" placeholder="mm" class="payInput sm">
-                <input type="text" placeholder="yyyy" class="payInput sm">
-                <input type="text" placeholder="cvv" class="payInput sm">
+                <input type="text" placeholder="mm" class="payInput sm" required>
+                <input type="text" placeholder="yyyy" class="payInput sm" required>
+                <input type="text" placeholder="cvv" class="payInput sm" required>
             </div>
-            <button class="payButton">Checkout!</button>
+            <input type="submit" class="payButton" value="Checkout!" required>
             <span class="close">X</span>
         </div>
     </div>

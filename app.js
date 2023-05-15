@@ -12,8 +12,8 @@ const products = [
                 img: "Images/footwear2-removebg-preview (1).png",
             },
             {
-                code: "darkblue",
-                img: "Images/footwear5-removebg-preview (1).png",
+                code: "lightblue",
+                img: "Images/footware (blue).png",
             },
         ],
     },
@@ -27,8 +27,8 @@ const products = [
                 img: "Images/footwear6-removebg-preview.png",
             },
             {
-                code: "green",
-                img: "Images/footwear8-removebg-preview.png",
+                code: "yellow",
+                img: "Images/footware (yellow).png",
             },
         ],
     },
@@ -42,8 +42,8 @@ const products = [
                 img: "Images/footwear5-removebg-preview (1).png",
             },
             {
-                code: "green",
-                img: "Images/footwear2-removebg-preview (1).png",
+                code: "yellowgreen",
+                img: "Images/footware (green).png",
             },
         ],
     },
@@ -58,7 +58,7 @@ const products = [
             },
             {
                 code: "lightgray",
-                img: "Images/footwear2-removebg-preview (1).png",
+                img: "Images/footware (gray 2).png",
             },
         ],
     },
@@ -68,12 +68,12 @@ const products = [
         price: 99,
         colors: [
             {
-                code: "gray",
+                code: "blue",
                 img: "Images/footwear8-removebg-preview.png",
             },
             {
                 code: "black",
-                img: "Images/footwear4-removebg-preview.png",
+                img: "Images/foootware (black).png",
             },
         ],
     },
